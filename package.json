@@ -1,0 +1,29 @@
+{
+  "name": "zypechain",
+  "version": "1.0.0",
+  "description": "Make Blockchain with Typescript and CryptoJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zipperdev/Zypechain.git"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "zipperdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zipperdev/Zypechain/issues"
+  },
+  "homepage": "https://github.com/zipperdev/Zypechain#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "tsc-watch": "^4.4.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
